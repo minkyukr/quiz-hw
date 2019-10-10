@@ -20,8 +20,8 @@ var questions = [
         answer: '8'
     },
     {
-        title: "How many letters are in the alphabet?",
-        choices: ['6', '25', "8", "9"],
-        answer: '8'
+        title: "June's dad has four daughters, January is the first daughter, February is the second daughter , March is the third daughter, What is the name of the fourth child",
+        choices: ['April', 'May', "June", "July"],
+        answer: 'June'
     },
   ];
