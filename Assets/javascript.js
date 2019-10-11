@@ -27,26 +27,22 @@ var questions = [
   ];
 
 var timeEl = document.querySelector(".col-md-1");
-var mainEl = document.getElementById("timer");
-var 
+var timerEl = document.getElementById("#timer");
+var startButton = document.querySelector('.start');
+var secondsLeft = 30;
 
-var secondsLeft = 50;
+startButton.addEventListener('click', function (event) {
+    event.preventDefault();
 
-function startButton() {
-    
-
-    function setTime() {
     var timerInterval = setInterval(function() {
         secondsLeft--;
         timeEl.textContent = secondsLeft
 
         if(secondsLeft === 0) {
         clearInterval(timerInterval);
-        sendMessage('Sorry. Try again.');
-        }
+        alert('Sorry. Try again.');
+            }
+        }, 1000);
 
-    }, 1000);
-    }
-
-    setTime();
-}
+        for (var i = 0;)
+    })
