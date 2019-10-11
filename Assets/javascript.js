@@ -25,3 +25,28 @@ var questions = [
         answer: 'June'
     },
   ];
+
+var timeEl = document.querySelector(".col-md-1");
+var mainEl = document.getElementById("timer");
+var 
+
+var secondsLeft = 50;
+
+function startButton() {
+    
+
+    function setTime() {
+    var timerInterval = setInterval(function() {
+        secondsLeft--;
+        timeEl.textContent = secondsLeft
+
+        if(secondsLeft === 0) {
+        clearInterval(timerInterval);
+        sendMessage('Sorry. Try again.');
+        }
+
+    }, 1000);
+    }
+
+    setTime();
+}
