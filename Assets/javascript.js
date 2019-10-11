@@ -29,7 +29,8 @@ var questions = [
 var timeEl = document.querySelector(".col-md-1");
 var timerEl = document.getElementById("#timer");
 var startButton = document.querySelector('.start');
-var secondsLeft = 30;
+var secondsLeft = 10;
+
 
 startButton.addEventListener('click', function (event) {
     event.preventDefault();
@@ -40,9 +41,8 @@ startButton.addEventListener('click', function (event) {
 
         if(secondsLeft === 0) {
         clearInterval(timerInterval);
-        alert('Sorry. Try again.');
+        alert('Sorry. Please try again.');
             }
         }, 1000);
 
-        for (var i = 0;)
     })

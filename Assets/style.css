@@ -8,20 +8,27 @@
     justify-content: center;
 }
 
+
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionBox {
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+}
+
 .col-md-12 {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
 }
-
+    
 .col-md-5 {
     display: flex;
     flex-flow: wrap;
-    align-items: center;
-}
-
-#timer {
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
