@@ -33,8 +33,13 @@
                 <div class="col-md-12">
                     <h3 class="quizTitle">Coding Quiz Challenge</h1>
                     </div>        
-                <div class="col-md-5 quizExp">
-                    <p class="quizDesc">Try to answer the following noncode-related questions within the time limit. Keep in mind the incorrect answers will penalize your scoretime by 5 seconds!</p>
+                <div class="col-md-5">
+                    <div id="choices">
+                        <button type="button" class="btn btn-success start choice" id="A" onclick="checkAnswer('A')">A</button>
+                        <button type="button" class="btn btn-success start choice" id="B" onclick="checkAnswer('B')">B</button>
+                        <button type="button" class="btn btn-success start choice" id="C" onclick="checkAnswer('C')">C</button>
+                        <button type="button" class="btn btn-success start choice" id="D" onclick="checkAnswer('D')">D</button>
+                    </div>    
                 </div>
                 <div class="col-md-12">
                     <button type="button" class="btn btn-success start">Start Quiz</button>

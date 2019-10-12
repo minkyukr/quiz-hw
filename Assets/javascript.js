@@ -29,8 +29,15 @@ var questions = [
 var timeEl = document.querySelector(".col-md-1");
 var timerEl = document.getElementById("#timer");
 var startButton = document.querySelector('.start');
-var secondsLeft = 10;
+var secondsLeft = 50;
 
+var choicesEl = document.getElementById('#choices');
+var choiceEl = document.getElementById('.choice');
+
+var choiceA = document.getElementById('#A');
+var choiceB = document.getElementById('#B');
+var choiceC = document.getElementById('#C');
+var choiceD = document.getElementById('#D');
 
 startButton.addEventListener('click', function (event) {
     event.preventDefault();
